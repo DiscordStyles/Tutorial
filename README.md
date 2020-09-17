@@ -24,4 +24,5 @@
 2. Open a terminal or a command prompt.
 3. Run the following command:
 	- `cd powercord/src/powercord/themes && git clone https://github.com/DiscordStyles/[repo name]`
-4. Restart Discord.
+4. Reload Discord.
+	- Press `CTRL` + `R` while Discord is focused.
