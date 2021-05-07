@@ -1,5 +1,5 @@
 # BetterDiscord
-1. [Download](https://betterdiscord.app/) and Install BetterDiscord.
+1. [Download BetterDiscord](https://betterdiscord.app/).
 2. Drag the installer outside of your Downloads folder and run as Administrator.
 3. Agree to the license.
 4. Check Install and click next.
@@ -22,5 +22,6 @@
 2. Open a terminal or a command prompt.
 3. Run the following command:
 	- `cd powercord/src/powercord/themes && git clone https://github.com/DiscordStyles/[repo name]`
+	- Example: `cd powercord/src/powercord/themes && git clone https://github.com/DiscordStyles/FrostedGlass`
 4. Reload Discord.
-	- Press `CTRL` + `R` while Discord is focused.
+	- Press <kbd>CTRL</kbd> + <kbd>R</kbd> while Discord is focused.
