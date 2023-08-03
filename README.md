@@ -1,4 +1,6 @@
-# BetterDiscord
+# Installation
+
+## BetterDiscord
 1. [Download BetterDiscord](https://betterdiscord.app/).
 2. Drag the installer outside of your Downloads folder and run as Administrator.
 3. Agree to the license.
@@ -17,11 +19,40 @@
 	- Themes **MUST** end with a `.theme` extension or `.theme.css` with file name extensions enabled.
 11. Go back to your Themes tab in Discord and enable your theme.
 
-# Powercord
-1. Download and Install instructions on [Powercord.dev](http://powercord.dev/installation)
-2. Open a terminal or a command prompt.
-3. Run the following command:
-	- `cd powercord/src/powercord/themes && git clone https://github.com/DiscordStyles/[repo name]`
-	- Example: `cd powercord/src/powercord/themes && git clone https://github.com/DiscordStyles/FrostedGlass`
-4. Reload Discord.
-	- Press <kbd>CTRL</kbd> + <kbd>R</kbd> while Discord is focused.
+## Replugged
+> (Work in progress)  
+> In the meantime, ask in their [Discord Server](https://discord.com/invite/replugged)
+
+## Vencord
+Simply copy this and replace the name to the theme you wish to use:
+```
+https://discordstyles.github.io/THEMENAME/THEMENAME.theme.css
+```
+
+> :warning: **WARNING**: Don't do this if you wish to customize your theme later.
+
+<br>
+<br>
+
+# Editing
+> *Some* CSS knowledge may be required to edit a theme.
+
+## BetterDiscord
+1. Go to your BetterDiscord themes tab.
+2. Press the "Edit" button on the theme of your choice.
+	> ![](https://i.imgur.com/inU9BY4.png)
+4. Edit any `--variable-name` inside of the `:root` brackets.
+6. Press the save icon at the top left.
+
+## Vencord
+1. Go to your theme of choice.
+2. Find the `.theme.css` file
+	- In all of the repos apart from Dark Matter they'll be in the `deploy` branch.
+	> ![](https://i.imgur.com/UaNor0J.png)  
+	> ![](https://i.imgur.com/ZzcO7J1.png)  
+3. Copy all of the contents inside that file by clicking the button at the top right.
+	> ![](https://i.imgur.com/3mkNzQe.png)
+4. Go to your Vencord themes tab.
+5. Click the "Open QuickCSS file" button.
+6. Paste the contents you copied from before.
+7. Edit any `--variable-name` inside of the `:root` brackets.
